@@ -1,0 +1,51 @@
+.App-container {
+  background: linear-gradient(180deg, rgba(113,39,102,1) 0%, rgba(162,54,130,1) 48%, rgba(37,32,85,1) 84%);
+  width: 100%;
+  min-height: 100vh;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.quote-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width: 80vmin;
+  height: 700px;
+  border-radius: 15px;
+  font-family: 'Joan', serif;
+  font-weight: 200;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  background-image: url("https://wallpapersflix.com/wp-content/uploads/2021/09/Purple-Background-Images.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;  
+
+}
+
+
+
+.quote {
+  position: relative;
+  color:  white;
+  font-size: larger;
+  float: left;
+  text-shadow: 1px 1px 2px rgb(30, 21, 65);
+
+}
+.quote-author {
+  color: plum;
+}
+
+button {
+  background-color: rgb(37,32,85);
+  border-radius: 10px;
+  color: white;
+}
+
+
+
